@@ -8,15 +8,14 @@ import {
 } from "react-router-dom";
 import { BrowserRouter, Routes} from 'react-router-dom';
 
-import Etudiant from './Component/Etudiant';
-import Acceuil from './Component/Acceuill';
+import Materiel from './Component/Materiel';
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
       <Route path="/" >
-        <Route index element={<Etudiant/>}/>
+        <Route index element={<Materiel/>}/>
         
       </Route>
     </Routes>

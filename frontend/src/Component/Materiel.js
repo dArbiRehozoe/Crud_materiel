@@ -39,7 +39,7 @@ const columns = [
   { id: 'Action', label: '' },
  
 ];
-export default class Etudiant extends React.Component {
+export default class Materiel extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
